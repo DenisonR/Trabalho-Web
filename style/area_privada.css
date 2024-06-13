@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+    body{
+    background-image: URL(../imagens/icon/paz.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width: 768px) {
+    body { font-size: 14px; }
+    div#cortes { width: 90%; }
+    footer { position: fixed; }
+    #user-info { display: none; }
+}
+
+
+div#cortes{
+    width: 420px;
+    margin: 150px auto 0px auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000; 
+    padding: 10px; 
+}
+
+h1, h2 {
+    font-size: 24px;
+    color: #f9f8f8;
+    margin-bottom: 20px; /* Adicionando espaçamento entre as palavras */
+}
+
+.texto-centralizado {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    position: absolute;
+    top: 50%; /* Posiciona o texto no meio vertical da página */
+    left: 50%; /* Posiciona o texto no meio horizontal da página */
+    transform: translate(-50%, -50%);
+}
+
+
+a {
+    display: block;  /* Define as âncoras como blocos para ocupar toda a largura */
+    margin-top: 15px; /* Adicionando espaçamento entre os itens */
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 20px; /* Adicionando espaçamento acima do texto do rodapé */
+}
+
+#user-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
